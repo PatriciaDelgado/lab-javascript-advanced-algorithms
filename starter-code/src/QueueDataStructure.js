@@ -1,6 +1,6 @@
 function QueueDataStructure () {
   this.queueControl = [];
-  this.MAX_SIZE = 90;
+  this.MAX_SIZE = 19;
   this.isEmpty = function () {
     if(this.queueControl.length != 0){
       return false;

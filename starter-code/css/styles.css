@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.stackData{
+  width: 400px;
+  height: auto;
+  margin-bottom: 100px;
+}
+.queueData{
+  width: 400px;
+  height: auto;
+}
+h1{
+  margin-bottom: 50px;
+}
+input,button{
+  -webkit-appearance: none;
+  padding: 0 10px;
+}
+.stackData__input{
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-bottom: 30px;
+}
+.Button {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 15px;
+  color: white;
+}
+.stackData__add{
+  background-color: #3777ca;
+}
+.stackData__take{
+  background-color: #e24040;
+}
+.stackData__wrapper{
+
+}
+.stackData__item{
+  height:  50px;
+  width: 100%;
+  background-color: #c7c7c7;
+}
